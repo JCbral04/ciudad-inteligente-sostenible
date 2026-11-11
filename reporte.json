@@ -1,0 +1,51 @@
+{
+  "datos": {
+    "sensores": 240,
+    "lecturas_generadas": 345600,
+    "mensajes_sin_edge": 345600,
+    "mensajes_con_edge": 23285,
+    "reduccion_mensajes_pct": 93.26244212962963,
+    "mb_sin_edge": 52.707033,
+    "mb_con_edge": 3.579281,
+    "reduccion_bytes_pct": 93.20910171513543,
+    "wh_red_sin_edge": 3.16242198,
+    "wh_red_con_edge": 0.21475686,
+    "registros_almacenados": 23285,
+    "error_energia_reconstruida_pct": 0.03286967519755023
+  },
+  "analitica": {
+    "kwh_dia_medidos": 27664.783333333333,
+    "mape_pronostico_pct": 9.728346477244626,
+    "hora_pico_movilidad": 7,
+    "alertas_llenado": 29
+  },
+  "autoescalado": {
+    "replicas_fijas": 5,
+    "horas_replica_fijo": 120,
+    "horas_replica_auto": 60,
+    "kwh_fijo": 16.49218394244527,
+    "kwh_auto": 10.876183942445266,
+    "ahorro_pct": 34.052494318513695,
+    "kg_co2e_evitados_dia": 1.2355200000000006
+  },
+  "carbono_lotes": {
+    "inicio_habitual": 18,
+    "inicio_optimo": 11,
+    "kg_habitual": 2.7218360762022096,
+    "kg_optimo": 1.6025249681624896,
+    "ahorro_pct": 41.123384241474966
+  },
+  "residuos": {
+    "contenedores_ruta_fija": 80,
+    "contenedores_ruta_dinamica": 37,
+    "km_ruta_fija": 85.95605497183574,
+    "km_ruta_dinamica": 58.88112398360951,
+    "ahorro_km_pct": 31.498573308299886,
+    "litros_evitados": 13.537465494113114,
+    "kg_co2_evitados": 36.28040752422315
+  },
+  "sci_g_co2e_por_1000_lecturas": {
+    "linea_base": 10.50050983846516,
+    "propuesta": 6.923633431270713
+  }
+}
